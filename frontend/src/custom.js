@@ -1,4 +1,3 @@
-// Form validation
 document.getElementById('contactForm').addEventListener('submit', function(e) {
   e.preventDefault();
   const name = document.getElementById('name').value;
@@ -16,7 +15,6 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
   }
 });
 
-// Smooth scrolling for navigation
 document.querySelectorAll('nav a').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     e.preventDefault();
